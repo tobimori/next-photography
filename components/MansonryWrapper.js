@@ -14,7 +14,7 @@ export default styled.div`
     transition: transform 0.2s ease-in-out;
 
     &:hover {
-      transform: scale(0.95);
+      transform: scale(0.94);
     }
 
     > img {
@@ -24,7 +24,7 @@ export default styled.div`
       transition: transform 0.2s ease-in-out;
 
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.15);
       }
     }
   }

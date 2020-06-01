@@ -18,6 +18,7 @@ export default class MyApp extends App {
           <style>{`
             body {
               margin: 20px;
+              overflow-x: hidden;
             } 
           `}
           </style>

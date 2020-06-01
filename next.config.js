@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    API_KEY: process.env.API_KEY,
-    USER_ID: process.env.USER_ID,
-  },
+    API_KEY: '7a9e3cc697cdbaca0f357a92b7f745c2',
+    USER_ID: '182810273%40N06'
+  }
 }
