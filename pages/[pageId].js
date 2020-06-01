@@ -31,11 +31,9 @@ export async function getStaticPaths() {
   const count = flickrRes.person.photos.count._content
   let paths = []
 
-  for (let i = 2; i < count / 10; i++) {
+  for (let i = 1; i < count / 10; i++) {
     paths.push({ params: { pageId: i.toString() } })
   }
-
-  console.log(paths)
 
   return {
     paths: paths,
