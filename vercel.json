@@ -4,5 +4,7 @@
       "API_KEY": "@api-key",
       "USER_ID": "@user-id"
     }
+  }, "github": {
+    "silent": true
   }
 }
